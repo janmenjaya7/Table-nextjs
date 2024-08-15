@@ -7,6 +7,7 @@ import AutorenewIcon from "@mui/icons-material/Autorenew";
 import InfoIcon from "@mui/icons-material/Info";
 import EventIcon from "@mui/icons-material/Event";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 function Header() {
   return (
     <>
@@ -102,6 +103,15 @@ function Header() {
             Select a Erat
           </Button>
         </Stack>
+        <div>
+          <Button
+            variant="outlined"
+            color="success"
+            endIcon={<HighlightOffIcon />}
+          >
+            Clear All
+          </Button>
+        </div>
       </Box>
     </>
   );
